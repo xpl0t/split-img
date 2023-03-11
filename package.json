@@ -1,0 +1,18 @@
+{
+  "name": "split-img",
+  "version": "1.0.0",
+  "description": "Split image into parts",
+  "main": "split.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "split-img": "split.js"
+  },
+  "author": "Johannes Weih",
+  "license": "ISC",
+  "dependencies": {
+    "image-decode": "^1.2.2",
+    "image-encode": "^1.3.1"
+  }
+}
